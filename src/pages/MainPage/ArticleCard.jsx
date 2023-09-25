@@ -13,7 +13,7 @@ const ArticleCard = ({id, article, image}) => {
                 <p className="article-parag"> {article.slice(0, 200)} 
                     <span 
                     className="parag-span"
-                    onClick={() => navigate(`/article/${id}`)}>
+                    onClick={() => navigate(`/developer-project/article/${id}`)}>
                         { ' [...read more]' }
                     </span> 
                 </p>

@@ -8,7 +8,7 @@ import ReadMore from '../pages/MainPage/ReadMore'
 const router = [
     {
         element: <Layouts />,
-        path: '/',
+        path: '/developer-project/',
         children: [
             {
                 element: <MainPage />,
@@ -16,19 +16,19 @@ const router = [
             },
             {
                 element: <AboutPage />,
-                path: '/about'
+                path: '/developer-project/about'
             },
             {
                 element: <CompaniesPage />,
-                path: '/companies'
+                path: '/developer-project/companies'
             },
             {
                 element: <ContactPage />,
-                path: '/contact'
+                path: '/developer-project/contact'
             },
             {
                 element: <ReadMore />,
-                path: '/article/:ArtcId'
+                path: '/developer-project/article/:ArtcId'
             }
         ]
     }
