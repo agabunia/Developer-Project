@@ -1,0 +1,206 @@
+/* Main Page Styles */
+/* .mainPage {} */
+
+.main-Header {
+    margin: 0;
+    padding: 30px 0 10px;
+}
+
+
+/* Advert Component Styles */
+/* .adDiv {} */
+
+.adCompany {
+    font-size: 25px;
+    margin: auto;
+    width: 80%;
+}
+
+
+/* Article Summary Styles */
+.article-summary {
+    padding-top: 30px;
+}
+
+
+/* Article Card Component Styles */
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.image-cont {
+    width: 100%;
+}
+
+.article-img {
+    width: 100%;
+}
+
+.article-container {
+    width: 100%;
+}
+
+.article-header {
+    margin: 10px 0 5px;
+    padding: 0;
+    display: flex;
+}
+
+.article-parag {
+    margin: 10px 0 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.parag-span {
+    color: rgb(94, 93, 93);
+    font-weight: bold;
+}
+
+
+/* Read More Page Styles */
+.article-full {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.article-head-full {
+    font-size: 30px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.article-parag-full {
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 0 0;
+}
+
+.image-cont-full {
+    width: 95%;
+    padding: 10px 0;
+}
+
+.article-img-full {
+    width: 100%;
+}
+
+.full {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 800px) {
+    /* Main Page Styles */
+    /* .mainPage {} */
+
+    .main-Header {
+        font-size: 40px;
+        padding: 60px 0 10px;
+    }
+
+
+    /* Advert Component Styles */
+    .adDiv {
+        padding-top: 20px;
+    }
+
+    .adSwiper {
+        width: 90%;
+    }
+
+
+    /* Article Summary Styles */
+    .article-summary {
+        padding-top: 10px;
+    }
+
+
+    /* Article Card Component Styles */
+    .article {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        width: 80%;
+        padding: 30px 0;
+        justify-content: center;
+
+        border: 1px solid;
+    }
+
+    .image-cont {
+        width: 45%;
+    }
+
+    .article-img {
+        width: 100%;
+    }
+
+    .article-container {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article-header {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .article-parag {
+        font-size: 20px;
+    }
+
+    .parag-span:hover {
+        cursor: pointer;
+    }
+
+
+    /* Read More Page Styles */
+    .article-full {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 95%;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .image-cont-full {
+        width: 80%;
+    }
+
+    .article-img-full {
+        width: 100%;
+    }
+
+    .article-head-full {
+        font-size: 50px;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .article-parag-full {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .full {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
